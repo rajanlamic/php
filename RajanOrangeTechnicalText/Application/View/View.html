@@ -1,0 +1,24 @@
+<form name="popnames" method="post" action="" onSubmit="return submitIt();">
+
+    <p>
+        <label style="display:inline;" for="yearFrom">Birth Year From :</label><br  />
+        <input style="width:100px" type="text" name="yearFrom" size="5" maxlength="4" id="yearFrom" value="2012" /><br>
+        <label style="display:inline;" for="yearTo">Birth Year To :</label><br  />
+        <input style="width:100px" type="text" name="yearTo" size="5" maxlength="4" id="yearTo" value="2012" />
+        
+    </p>
+
+    <p>
+
+        <label style="display:inline;" for="rank">Popularity:</label><br  />
+        <select style="width:100px" name="top" size="1" id="top">
+            <option value="20">Top 20</option>
+            <option value="50">Top 50</option>
+            <option value="100">Top 100</option>
+            <option value="500">Top 500</option>
+            <option value="1000">Top 1000</option>
+        </select>
+        
+    </p>
+    <input class="uef-btn uef-btn-primary" type="submit" id="submit" name="submit" value="  Submit  " />
+</form>
